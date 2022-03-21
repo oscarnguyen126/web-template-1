@@ -1,0 +1,175 @@
+@import url('http://fonts.cdnfonts.com/css/new-york-extra-large');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    margin: auto;
+    border-bottom: thin solid lightgray;
+    margin-top: 24px;
+    margin-bottom: 21px;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+}
+
+h1 {
+    font-family: 'New York Extra Large', sans-serif;
+    font-weight: 700 bold;
+    font-size: 36px;
+    line-height: 42.96px;
+    text-align: center;
+    width: 335px;
+    height: 172px;
+}
+
+#quest {
+    width: 335px;
+    text-align: center;
+    margin: 24px 20px 52px 20px;
+    font-weight: 400 regular;
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+#hr {
+    border-top: 2px solid black;
+    width: 375px;
+}
+
+h2 {
+    font-family: 'New York Extra Large', sans-serif;
+    font-weight: 700 bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+}
+
+#infor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cert {
+    text-align: center;
+    font-weight: 500 medium;
+    font-size: 12px;
+    line-height:16.8px;
+}
+
+li {
+    display: inline;
+    padding: 0px 30px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+a {
+    color: white;
+}
+
+#iso {
+    margin-bottom: 0px;
+}
+
+#right {
+    margin-top: 0px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: black
+  }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.dropdown:hover .dropbtn {
+    background-color: white;
+  }
+
+#lorem {
+    text-align: center;
+    font-weight: 400 regular;
+    size: 13px;
+    line-height: 18.2px;
+}
+
+#attr {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 22px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-weight: 800;
+}
