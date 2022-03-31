@@ -1,0 +1,98 @@
+body {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+}
+
+hr {
+    border-top: medium solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 602px;
+}
+
+.pic-text { 
+    text-align: center;
+    width: 262px;
+    margin: 0px;
+    size: 22px;
+    line-height: 26.4px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 44px 424px 34px 424px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+footer {
+    background: black;
+    color: white;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.last-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+span {
+    margin: 16px 10px;
+    font-weight: bold;
+}
+
+.top-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 52px;
+    padding-bottom: 42px;
+    color: black;
+    border-bottom: 1px solid lightgray;
+}
+
+#appendix {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 170%;
+    justify-content: space-between;
+}
+
+#selected {
+    border-bottom: 1px solid black;
+}
+
+li {
+    display: inline;
+}
